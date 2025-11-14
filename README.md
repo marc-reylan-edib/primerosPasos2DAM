@@ -37,13 +37,6 @@ A continuación se detalla el flujo completo del usuario:
 
 ---
 
-## 🔄 Lógica FIFO
-
-La aplicación utiliza el modelo **First In, First Out**, garantizando que el primer usuario en entrar a la cola será el primero en ser atendido.  
-Este sistema asegura transparencia, equidad y eficiencia.
-
----
-
 ## 🧩 Beneficios del Sistema
 
 - Eliminación de colas físicas.
