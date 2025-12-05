@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <title>Mi Proyecto</title>
+  <link rel="stylesheet" href="estilos.css" />
+
   <!-- Aquí cargamos el SDK de Supabase -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
@@ -29,7 +31,7 @@
       const lista = document.getElementById("lista");
       data.forEach(item => {
         const li = document.createElement("li");
-        li.textContent = `${item.id}: ${item.nombre}`;
+        li.textContent = `${item.id} | ${item.nombre} | ${item.apellido} | ${item.edad}`;
         lista.appendChild(li);
       });
     }
